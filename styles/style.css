@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+
+}
+
+
+
+
+#title {
+    flex-direction: column;
+    line-height: 5px;
+}
+
+
+li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 45px;
+    font-family: poppinsmedium;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+
+}
+
+h2 {
+
+    font-size: 30px;
+    line-height: 40px;
+    font-family: poppinsmedium;
+}
+
+h3 {
+    font-size: 28px;
+
+}
+
+h4 {
+    font-size: 20px;
+}
+
+span {
+    color: rgb(132, 14, 201);
+    text-align: center;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 12pt;
+    line-height: 20px;
+    max-width: 500px;
+
+}
+
+img {
+    width: 580px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+
+}
+
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    margin-left: 90px;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+
+
+}
+
+input {
+    margin-top: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+article {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 580px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+#moldura {
+    width: 1500px;
+    height: 450px;
+    bachground-collor: #eeeeee;
+    transition: background-image 2s;
+}
