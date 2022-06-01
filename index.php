@@ -15,10 +15,11 @@
 
 
         <section>
-            <a href="index.html"><li>Início</li></a>
+            
             
             <h1>Agendamento de Clientes</h1>
             <hr><br><br>
+            <a href="index.html"><li>Início</li></a>
             <form method="post" action="processa.php">
                 Selecione o tipo de Serviço<br>
                 <input type="radio" name="servico" value="Cabelo" />
